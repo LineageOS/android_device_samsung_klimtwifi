@@ -34,10 +34,10 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1600
 
 # Fingerprint
-#PRODUCT_PACKAGES += \
-#    fingerprintd \
-#    fingerprint.universal5420 \
-#    ValidityService
+PRODUCT_PACKAGES += \
+    fingerprintd \
+    fingerprint.universal5420 \
+    validityService
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
@@ -55,8 +55,8 @@ PRODUCT_PACKAGES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
-#    frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
+    frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml \
+    frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
 
 # Shim
 PRODUCT_PACKAGES += \
