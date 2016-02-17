@@ -1,0 +1,2 @@
+allow sysfs_type tmpfs:filesystem associate;
+type vcs_data_file, file_type, data_file_type;
