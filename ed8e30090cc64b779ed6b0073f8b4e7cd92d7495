@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_94044219",
+        "filename": "cmhw/org/cyanogenmod/hardware/DisplayModeControl.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2016-02-27T02:16:34Z",
+      "side": 1,
+      "message": "Might be better to do Integer.parseInt(currentMode) and then switch on the int",
+      "revId": "ed8e30090cc64b779ed6b0073f8b4e7cd92d7495",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
