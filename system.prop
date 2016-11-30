@@ -1,16 +1,12 @@
 #
-# system.prop for klimtlte
+# system.prop for klimtwifi
 #
 
 # UI
 ro.sf.lcd_density=320
 
 # Radio
-rild.libpath=/system/lib/libsec-ril.so
-rild.libargs=-d /dev/ttyS0
-ro.telephony.default_network=9
-ro.telephony.ril_class=SlteRIL
-ro.ril.telephony.mqanelements=5
+ro.radio.noril=yes
 
 # Randomly from stock
 ro.ril.gprsclass=10

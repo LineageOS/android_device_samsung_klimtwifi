@@ -14,28 +14,20 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/klimtlte
+LOCAL_PATH := device/samsung/klimtwifi
 
 # Platform
 BOARD_VENDOR := samsung
 TARGET_SOC := exynos5420
 
-# RIL
-BOARD_PROVIDES_LIBRIL := true
-BOARD_MODEM_TYPE := xmm7260
-BOARD_MODEM_NEEDS_VIDEO_CALL_FIELD := true
-
-# RIL.java overwrite
-BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
 # Bootloader
-TARGET_OTA_ASSERT_DEVICE := klimtlte
+TARGET_OTA_ASSERT_DEVICE := klimtwifi
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_deathly_klimtlte_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_deathly_klimtwifi_defconfig
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
@@ -46,14 +38,13 @@ BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 10485760
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2506096640
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 12629049344
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2527068160
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 12532580352
 BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 BOARD_FLASH_BLOCK_SIZE := 4096
 
 # SELinux
 BOARD_SEPOLICY_DIRS += device/samsung/exynos5420-common/sepolicy
-BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
 
 # Inherit from exynos5420-common
 include device/samsung/exynos5420-common/BoardConfigCommon.mk
