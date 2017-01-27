@@ -46,5 +46,8 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 # SELinux
 BOARD_SEPOLICY_DIRS += device/samsung/exynos5420-common/sepolicy
 
+# Cyanogen Hardware
+BOARD_HARDWARE_CLASS := $(COMMON_PATH)/cmhw
+
 # Inherit from exynos5420-common
 include device/samsung/exynos5420-common/BoardConfigCommon.mk
