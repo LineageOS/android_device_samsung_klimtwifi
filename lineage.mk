@@ -6,10 +6,10 @@ $(call inherit-product, device/samsung/klimtwifi/device.mk)
 
 PRODUCT_BRAND := samsung
 
-# Inherit some common CM stuff.
+# Inherit some common lineage stuff
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
-PRODUCT_NAME := cm_klimtwifi
+PRODUCT_NAME := lineage_klimtwifi
 PRODUCT_DEVICE := klimtwifi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
