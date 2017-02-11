@@ -58,6 +58,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
 #    frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
 
+# Shim
+PRODUCT_PACKAGES += \
+    libshim
+
 PRODUCT_PACKAGES += \
     fstab.universal5420 \
     init.target.rc \
