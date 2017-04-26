@@ -3,7 +3,7 @@ on post-fs-data
     chown system root /sys/devices/virtual/sec/sec_touchkey/touchkey_enabled
 
 on init
-    export LD_SHIM_LIBS "/system/bin/gpsd|libshim.so"
+    export LD_SHIM_LIBS "/system/bin/gpsd|libshim.so:/system/lib/libcamera_client.so|libcamera_parameters_shim.so"
 
 on boot
 
