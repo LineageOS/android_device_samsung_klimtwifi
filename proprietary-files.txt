@@ -33,7 +33,7 @@ vendor/firmware/setfile_6b2_eeprom.bin
 vendor/firmware/setfile_imx134_eeprom.bin
 
 # Noise suppression
-etc/nxp/LVVEFS_Rx_Configuration.txt
+vendor/etc/nxp/LVVEFS_Rx_Configuration.txt
 vendor/etc/nxp/LVVEFS_Tx_Configuration.txt
 vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt
 vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
