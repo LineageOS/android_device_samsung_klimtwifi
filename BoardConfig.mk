@@ -27,7 +27,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 TARGET_OTA_ASSERT_DEVICE := klimtwifi
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_deathly_klimtwifi_defconfig
+TARGET_KERNEL_CONFIG := lineageos_klimtwifi_defconfig
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
