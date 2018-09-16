@@ -16,4 +16,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_MODEL=SM-T700 \
     PRODUCT_NAME=klimtwifi \
     PRODUCT_DEVICE=klimtwifi \
+    PRIVATE_BUILD_DESC="samsung/klimtwifixx/klimtwifi:6.0.1/MMB29K/T700XXU1CRF1:user/release-keys" \
     TARGET_DEVICE=klimtwifi
+
+BUILD_FINGERPRINT := samsung/klimtwifixx/klimtwifi:6.0.1/MMB29K/T700XXU1CRF1:user/release-keys
