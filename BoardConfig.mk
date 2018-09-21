@@ -46,6 +46,7 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 
 # SELinux
 BOARD_SEPOLICY_DIRS += device/samsung/exynos5420-common/sepolicy
+BOARD_SEPOLICY_DIRS += device/samsung/klimtwifi/sepolicy
 
 # Cyanogen Hardware
 BOARD_HARDWARE_CLASS := $(COMMON_PATH)/cmhw
