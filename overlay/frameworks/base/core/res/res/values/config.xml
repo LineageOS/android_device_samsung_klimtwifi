@@ -74,4 +74,6 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">65</integer>
 
+    <!-- VCS limits the number of fingerprints per user to 3 -->
+    <integer name="config_fingerprintMaxTemplatesPerUser">3</integer>
 </resources>
