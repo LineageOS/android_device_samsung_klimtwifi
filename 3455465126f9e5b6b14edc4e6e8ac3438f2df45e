@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4759e572_dcc7b985",
+        "filename": "lineage.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 12604
+      },
+      "writtenOn": "2021-03-29T19:18:32Z",
+      "side": 1,
+      "message": "This change looks unrelated to the topic.",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 31
+      },
+      "revId": "3455465126f9e5b6b14edc4e6e8ac3438f2df45e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
